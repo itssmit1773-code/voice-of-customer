@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Preserve the exact bytes recorded in the evidence manifest.
+artifacts/** -text
+*.cmd text eol=crlf
+*.sqlite binary
+*.png binary

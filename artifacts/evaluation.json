@@ -1,0 +1,1733 @@
+{
+  "audit": {
+    "topic": {
+      "n": 24,
+      "accuracy": 0.8333333333333334,
+      "coverage": 0.75,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.825,
+      "majority_accuracy": 0.16666666666666666,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        {
+          "label": "export",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        {
+          "label": "other",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5
+        },
+        {
+          "label": "permissions",
+          "support": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "review",
+          "support": 2,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        {
+          "label": "search",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 2,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 3,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 2,
+          "other": 0,
+          "permissions": 0,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 1,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 4,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "review": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 3,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 3
+        }
+      }
+    },
+    "sentiment": {
+      "n": 24,
+      "accuracy": 0.875,
+      "coverage": 0.7916666666666666,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.8246753246753247,
+      "majority_accuracy": 0.3333333333333333,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "neutral",
+          "support": 7,
+          "precision": 1.0,
+          "recall": 0.5714285714285714,
+          "f1": 0.7272727272727273
+        },
+        {
+          "label": "positive",
+          "support": 7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "review",
+          "support": 2,
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1": 0.5714285714285714
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 8,
+          "neutral": 0,
+          "positive": 0,
+          "review": 0
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 4,
+          "positive": 0,
+          "review": 3
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 7,
+          "review": 0
+        },
+        "review": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 0,
+          "review": 2
+        }
+      }
+    },
+    "severity": {
+      "n": 24,
+      "accuracy": 0.9583333333333334,
+      "coverage": 0.9166666666666666,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9019607843137255,
+      "majority_accuracy": 0.4166666666666667,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "low",
+          "support": 10,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "moderate",
+          "support": 9,
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "f1": 0.9411764705882353
+        },
+        {
+          "label": "review",
+          "support": 1,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 4,
+          "low": 0,
+          "moderate": 0,
+          "review": 0
+        },
+        "low": {
+          "blocking": 0,
+          "low": 10,
+          "moderate": 0,
+          "review": 0
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 8,
+          "review": 1
+        },
+        "review": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 0,
+          "review": 1
+        }
+      }
+    }
+  },
+  "challenge": {
+    "topic": {
+      "n": 42,
+      "accuracy": 0.9761904761904762,
+      "coverage": 0.9761904761904762,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.987012987012987,
+      "majority_accuracy": 0.14285714285714285,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "export",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "other",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        {
+          "label": "permissions",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "search",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 6,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 6,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 6,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 5,
+          "permissions": 0,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 6,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 6,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 6
+        }
+      }
+    },
+    "sentiment": {
+      "n": 42,
+      "accuracy": 0.7142857142857143,
+      "coverage": 0.7142857142857143,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.8461538461538461,
+      "majority_accuracy": 0.4523809523809524,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 15,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "neutral",
+          "support": 19,
+          "precision": 1.0,
+          "recall": 0.3684210526315789,
+          "f1": 0.5384615384615384
+        },
+        {
+          "label": "positive",
+          "support": 8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 15,
+          "neutral": 0,
+          "positive": 0,
+          "review": 0
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 7,
+          "positive": 0,
+          "review": 12
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 8,
+          "review": 0
+        }
+      }
+    },
+    "severity": {
+      "n": 42,
+      "accuracy": 0.8809523809523809,
+      "coverage": 0.8809523809523809,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9369138959931799,
+      "majority_accuracy": 0.42857142857142855,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 11,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "low",
+          "support": 18,
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "f1": 0.9411764705882353
+        },
+        {
+          "label": "moderate",
+          "support": 13,
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1": 0.8695652173913043
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 11,
+          "low": 0,
+          "moderate": 0,
+          "review": 0
+        },
+        "low": {
+          "blocking": 0,
+          "low": 16,
+          "moderate": 0,
+          "review": 2
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 10,
+          "review": 3
+        }
+      }
+    }
+  },
+  "simulation": {
+    "topic": {
+      "n": 3510,
+      "accuracy": 0.9478632478632478,
+      "coverage": 0.9478632478632478,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9720474708715543,
+      "majority_accuracy": 0.23162393162393163,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 746,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "export",
+          "support": 526,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 813,
+          "precision": 1.0,
+          "recall": 0.8425584255842559,
+          "f1": 0.9145527369826435
+        },
+        {
+          "label": "other",
+          "support": 277,
+          "precision": 1.0,
+          "recall": 0.8014440433212996,
+          "f1": 0.8897795591182365
+        },
+        {
+          "label": "permissions",
+          "support": 295,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "search",
+          "support": 399,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 454,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 746,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 526,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 685,
+          "other": 0,
+          "permissions": 0,
+          "review": 128,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 222,
+          "permissions": 0,
+          "review": 55,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 295,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 399,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 454
+        }
+      }
+    },
+    "sentiment": {
+      "n": 3510,
+      "accuracy": 0.8888888888888888,
+      "coverage": 0.9079772079772079,
+      "accepted_accuracy": 0.9789770944461876,
+      "macro_f1": 0.9291806937251952,
+      "majority_accuracy": 0.5643874643874643,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 1981,
+          "precision": 1.0,
+          "recall": 0.8849066128218072,
+          "f1": 0.9389394750937332
+        },
+        {
+          "label": "neutral",
+          "support": 1145,
+          "precision": 0.9392014519056261,
+          "recall": 0.9039301310043668,
+          "f1": 0.9212283044058746
+        },
+        {
+          "label": "positive",
+          "support": 384,
+          "precision": 1.0,
+          "recall": 0.8645833333333334,
+          "f1": 0.9273743016759777
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 1753,
+          "neutral": 59,
+          "positive": 0,
+          "review": 169
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 1035,
+          "positive": 0,
+          "review": 110
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 8,
+          "positive": 332,
+          "review": 44
+        }
+      }
+    },
+    "severity": {
+      "n": 3510,
+      "accuracy": 0.8823361823361824,
+      "coverage": 0.8823361823361824,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.937827849950501,
+      "majority_accuracy": 0.4270655270655271,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 721,
+          "precision": 1.0,
+          "recall": 0.883495145631068,
+          "f1": 0.9381443298969072
+        },
+        {
+          "label": "low",
+          "support": 1290,
+          "precision": 1.0,
+          "recall": 0.8914728682170543,
+          "f1": 0.9426229508196722
+        },
+        {
+          "label": "moderate",
+          "support": 1499,
+          "precision": 1.0,
+          "recall": 0.8739159439626417,
+          "f1": 0.9327162691349234
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 637,
+          "low": 0,
+          "moderate": 0,
+          "review": 84
+        },
+        "low": {
+          "blocking": 0,
+          "low": 1150,
+          "moderate": 0,
+          "review": 140
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 1310,
+          "review": 189
+        }
+      }
+    }
+  },
+  "Support": {
+    "topic": {
+      "n": 1833,
+      "accuracy": 0.9498090561920349,
+      "coverage": 0.9498090561920349,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9744281338266301,
+      "majority_accuracy": 0.23567921440261866,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 386,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "export",
+          "support": 288,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 432,
+          "precision": 1.0,
+          "recall": 0.8472222222222222,
+          "f1": 0.9172932330827067
+        },
+        {
+          "label": "other",
+          "support": 148,
+          "precision": 1.0,
+          "recall": 0.8243243243243243,
+          "f1": 0.9037037037037037
+        },
+        {
+          "label": "permissions",
+          "support": 132,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "search",
+          "support": 200,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 247,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 386,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 288,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 366,
+          "other": 0,
+          "permissions": 0,
+          "review": 66,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 122,
+          "permissions": 0,
+          "review": 26,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 132,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 200,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 247
+        }
+      }
+    },
+    "sentiment": {
+      "n": 1833,
+      "accuracy": 0.8919803600654664,
+      "coverage": 0.9208947081287506,
+      "accepted_accuracy": 0.9686018957345972,
+      "macro_f1": 0.9208199508164944,
+      "majority_accuracy": 0.6273867975995635,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 1150,
+          "precision": 1.0,
+          "recall": 0.8852173913043478,
+          "f1": 0.9391143911439115
+        },
+        {
+          "label": "neutral",
+          "support": 530,
+          "precision": 0.9022140221402214,
+          "recall": 0.9226415094339623,
+          "f1": 0.9123134328358209
+        },
+        {
+          "label": "positive",
+          "support": 153,
+          "precision": 1.0,
+          "recall": 0.8366013071895425,
+          "f1": 0.9110320284697508
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 1018,
+          "neutral": 47,
+          "positive": 0,
+          "review": 85
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 489,
+          "positive": 0,
+          "review": 41
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 6,
+          "positive": 128,
+          "review": 19
+        }
+      }
+    },
+    "severity": {
+      "n": 1833,
+      "accuracy": 0.889798145117294,
+      "coverage": 0.889798145117294,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9418690282327881,
+      "majority_accuracy": 0.41516639388979815,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 367,
+          "precision": 1.0,
+          "recall": 0.8910081743869209,
+          "f1": 0.9423631123919308
+        },
+        {
+          "label": "low",
+          "support": 705,
+          "precision": 1.0,
+          "recall": 0.8950354609929078,
+          "f1": 0.9446107784431138
+        },
+        {
+          "label": "moderate",
+          "support": 761,
+          "precision": 1.0,
+          "recall": 0.8843626806833115,
+          "f1": 0.9386331938633193
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 327,
+          "low": 0,
+          "moderate": 0,
+          "review": 40
+        },
+        "low": {
+          "blocking": 0,
+          "low": 631,
+          "moderate": 0,
+          "review": 74
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 673,
+          "review": 88
+        }
+      }
+    }
+  },
+  "In-app": {
+    "topic": {
+      "n": 1116,
+      "accuracy": 0.9444444444444444,
+      "coverage": 0.9444444444444444,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9700804303753859,
+      "majority_accuracy": 0.22670250896057348,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 233,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "export",
+          "support": 148,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 253,
+          "precision": 1.0,
+          "recall": 0.8300395256916996,
+          "f1": 0.9071274298056156
+        },
+        {
+          "label": "other",
+          "support": 91,
+          "precision": 1.0,
+          "recall": 0.7912087912087912,
+          "f1": 0.8834355828220859
+        },
+        {
+          "label": "permissions",
+          "support": 112,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "search",
+          "support": 132,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 147,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 233,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 148,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 210,
+          "other": 0,
+          "permissions": 0,
+          "review": 43,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 72,
+          "permissions": 0,
+          "review": 19,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 112,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 132,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 147
+        }
+      }
+    },
+    "sentiment": {
+      "n": 1116,
+      "accuracy": 0.8853046594982079,
+      "coverage": 0.8951612903225806,
+      "accepted_accuracy": 0.988988988988989,
+      "macro_f1": 0.9331228824183572,
+      "majority_accuracy": 0.49014336917562723,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 547,
+          "precision": 1.0,
+          "recall": 0.886654478976234,
+          "f1": 0.939922480620155
+        },
+        {
+          "label": "neutral",
+          "support": 413,
+          "precision": 0.9708994708994709,
+          "recall": 0.8886198547215496,
+          "f1": 0.9279393173198482
+        },
+        {
+          "label": "positive",
+          "support": 156,
+          "precision": 1.0,
+          "recall": 0.8717948717948718,
+          "f1": 0.9315068493150684
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 485,
+          "neutral": 9,
+          "positive": 0,
+          "review": 53
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 367,
+          "positive": 0,
+          "review": 46
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 2,
+          "positive": 136,
+          "review": 18
+        }
+      }
+    },
+    "severity": {
+      "n": 1116,
+      "accuracy": 0.8835125448028673,
+      "coverage": 0.8835125448028673,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9385385396155902,
+      "majority_accuracy": 0.4551971326164875,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 234,
+          "precision": 1.0,
+          "recall": 0.8803418803418803,
+          "f1": 0.9363636363636364
+        },
+        {
+          "label": "low",
+          "support": 374,
+          "precision": 1.0,
+          "recall": 0.8983957219251337,
+          "f1": 0.9464788732394366
+        },
+        {
+          "label": "moderate",
+          "support": 508,
+          "precision": 1.0,
+          "recall": 0.8740157480314961,
+          "f1": 0.9327731092436975
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 206,
+          "low": 0,
+          "moderate": 0,
+          "review": 28
+        },
+        "low": {
+          "blocking": 0,
+          "low": 336,
+          "moderate": 0,
+          "review": 38
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 444,
+          "review": 64
+        }
+      }
+    }
+  },
+  "Review": {
+    "topic": {
+      "n": 561,
+      "accuracy": 0.948306595365419,
+      "coverage": 0.948306595365419,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.96690229601622,
+      "majority_accuracy": 0.2281639928698752,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 127,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "export",
+          "support": 90,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "notifications",
+          "support": 128,
+          "precision": 1.0,
+          "recall": 0.8515625,
+          "f1": 0.919831223628692
+        },
+        {
+          "label": "other",
+          "support": 38,
+          "precision": 1.0,
+          "recall": 0.7368421052631579,
+          "f1": 0.8484848484848485
+        },
+        {
+          "label": "permissions",
+          "support": 51,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "search",
+          "support": 67,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "label": "sync",
+          "support": 60,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 127,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 0,
+          "export": 90,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 109,
+          "other": 0,
+          "permissions": 0,
+          "review": 19,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 28,
+          "permissions": 0,
+          "review": 10,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 51,
+          "review": 0,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 67,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 0,
+          "search": 0,
+          "sync": 60
+        }
+      }
+    },
+    "sentiment": {
+      "n": 561,
+      "accuracy": 0.8859180035650623,
+      "coverage": 0.8912655971479501,
+      "accepted_accuracy": 0.994,
+      "macro_f1": 0.9398900685768664,
+      "majority_accuracy": 0.5062388591800356,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 284,
+          "precision": 1.0,
+          "recall": 0.8802816901408451,
+          "f1": 0.9363295880149812
+        },
+        {
+          "label": "neutral",
+          "support": 202,
+          "precision": 0.9835164835164835,
+          "recall": 0.8861386138613861,
+          "f1": 0.9322916666666666
+        },
+        {
+          "label": "positive",
+          "support": 75,
+          "precision": 1.0,
+          "recall": 0.9066666666666666,
+          "f1": 0.951048951048951
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 250,
+          "neutral": 3,
+          "positive": 0,
+          "review": 31
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 179,
+          "positive": 0,
+          "review": 23
+        },
+        "positive": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 68,
+          "review": 7
+        }
+      }
+    },
+    "severity": {
+      "n": 561,
+      "accuracy": 0.8556149732620321,
+      "coverage": 0.8556149732620321,
+      "accepted_accuracy": 1.0,
+      "macro_f1": 0.9233449965170454,
+      "majority_accuracy": 0.40998217468805703,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 120,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        },
+        {
+          "label": "low",
+          "support": 211,
+          "precision": 1.0,
+          "recall": 0.8672985781990521,
+          "f1": 0.9289340101522843
+        },
+        {
+          "label": "moderate",
+          "support": 230,
+          "precision": 1.0,
+          "recall": 0.8391304347826087,
+          "f1": 0.9125295508274232
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 104,
+          "low": 0,
+          "moderate": 0,
+          "review": 16
+        },
+        "low": {
+          "blocking": 0,
+          "low": 183,
+          "moderate": 0,
+          "review": 28
+        },
+        "moderate": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 193,
+          "review": 37
+        }
+      }
+    }
+  },
+  "baseline_audit": {
+    "topic": {
+      "n": 24,
+      "accuracy": 0.2916666666666667,
+      "coverage": 0.4583333333333333,
+      "accepted_accuracy": 0.45454545454545453,
+      "macro_f1": 0.2520833333333333,
+      "majority_accuracy": 0.16666666666666666,
+      "per_class": [
+        {
+          "label": "approval",
+          "support": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1": 0.3333333333333333
+        },
+        {
+          "label": "export",
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "label": "notifications",
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "label": "other",
+          "support": 3,
+          "precision": 0.2,
+          "recall": 0.3333333333333333,
+          "f1": 0.25
+        },
+        {
+          "label": "permissions",
+          "support": 4,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        {
+          "label": "review",
+          "support": 2,
+          "precision": 0.15384615384615385,
+          "recall": 1.0,
+          "f1": 0.26666666666666666
+        },
+        {
+          "label": "search",
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5
+        },
+        {
+          "label": "sync",
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      ],
+      "confusion": {
+        "approval": {
+          "approval": 1,
+          "export": 0,
+          "notifications": 0,
+          "other": 1,
+          "permissions": 0,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "export": {
+          "approval": 1,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        },
+        "notifications": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 2,
+          "permissions": 0,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "other": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 1,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        },
+        "permissions": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 1,
+          "permissions": 2,
+          "review": 1,
+          "search": 0,
+          "sync": 0
+        },
+        "review": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        },
+        "search": {
+          "approval": 0,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 2,
+          "search": 1,
+          "sync": 0
+        },
+        "sync": {
+          "approval": 1,
+          "export": 0,
+          "notifications": 0,
+          "other": 0,
+          "permissions": 0,
+          "review": 2,
+          "search": 0,
+          "sync": 0
+        }
+      }
+    },
+    "sentiment": {
+      "n": 24,
+      "accuracy": 0.25,
+      "coverage": 0.5833333333333334,
+      "accepted_accuracy": 0.35714285714285715,
+      "macro_f1": 0.26071428571428573,
+      "majority_accuracy": 0.3333333333333333,
+      "per_class": [
+        {
+          "label": "negative",
+          "support": 8,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        {
+          "label": "neutral",
+          "support": 7,
+          "precision": 0.6666666666666666,
+          "recall": 0.2857142857142857,
+          "f1": 0.4
+        },
+        {
+          "label": "positive",
+          "support": 7,
+          "precision": 0.14285714285714285,
+          "recall": 0.14285714285714285,
+          "f1": 0.14285714285714285
+        },
+        {
+          "label": "review",
+          "support": 2,
+          "precision": 0.1,
+          "recall": 0.5,
+          "f1": 0.16666666666666666
+        }
+      ],
+      "confusion": {
+        "negative": {
+          "negative": 2,
+          "neutral": 0,
+          "positive": 4,
+          "review": 2
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 2,
+          "positive": 1,
+          "review": 4
+        },
+        "positive": {
+          "negative": 2,
+          "neutral": 1,
+          "positive": 1,
+          "review": 3
+        },
+        "review": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 1,
+          "review": 1
+        }
+      }
+    },
+    "severity": {
+      "n": 24,
+      "accuracy": 0.75,
+      "coverage": 0.8333333333333334,
+      "accepted_accuracy": 0.85,
+      "macro_f1": 0.6877005347593583,
+      "majority_accuracy": 0.4166666666666667,
+      "per_class": [
+        {
+          "label": "blocking",
+          "support": 4,
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "f1": 0.7272727272727273
+        },
+        {
+          "label": "low",
+          "support": 10,
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235294117647058
+        },
+        {
+          "label": "moderate",
+          "support": 9,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        {
+          "label": "review",
+          "support": 1,
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4
+        }
+      ],
+      "confusion": {
+        "blocking": {
+          "blocking": 4,
+          "low": 0,
+          "moderate": 0,
+          "review": 0
+        },
+        "low": {
+          "blocking": 2,
+          "low": 7,
+          "moderate": 0,
+          "review": 1
+        },
+        "moderate": {
+          "blocking": 1,
+          "low": 0,
+          "moderate": 6,
+          "review": 2
+        },
+        "review": {
+          "blocking": 0,
+          "low": 0,
+          "moderate": 0,
+          "review": 1
+        }
+      }
+    }
+  }
+}

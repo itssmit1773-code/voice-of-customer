@@ -1,0 +1,361 @@
+account_id,segment,region
+A0001,Small business,EMEA
+A0002,Mid-market,Americas
+A0003,Mid-market,APAC
+A0004,Small business,Americas
+A0005,Small business,Americas
+A0006,Small business,EMEA
+A0007,Small business,EMEA
+A0008,Small business,APAC
+A0009,Enterprise,APAC
+A0010,Small business,APAC
+A0011,Small business,Americas
+A0012,Mid-market,Americas
+A0013,Mid-market,APAC
+A0014,Small business,Americas
+A0015,Small business,Americas
+A0016,Small business,Americas
+A0017,Small business,APAC
+A0018,Enterprise,EMEA
+A0019,Small business,Americas
+A0020,Small business,APAC
+A0021,Small business,Americas
+A0022,Mid-market,Americas
+A0023,Enterprise,APAC
+A0024,Small business,EMEA
+A0025,Small business,Americas
+A0026,Small business,EMEA
+A0027,Small business,EMEA
+A0028,Small business,Americas
+A0029,Small business,EMEA
+A0030,Small business,Americas
+A0031,Mid-market,APAC
+A0032,Small business,APAC
+A0033,Mid-market,APAC
+A0034,Small business,EMEA
+A0035,Small business,APAC
+A0036,Mid-market,Americas
+A0037,Mid-market,APAC
+A0038,Enterprise,Americas
+A0039,Mid-market,APAC
+A0040,Small business,Americas
+A0041,Small business,APAC
+A0042,Small business,EMEA
+A0043,Small business,Americas
+A0044,Small business,EMEA
+A0045,Small business,APAC
+A0046,Mid-market,EMEA
+A0047,Mid-market,EMEA
+A0048,Small business,APAC
+A0049,Mid-market,Americas
+A0050,Enterprise,Americas
+A0051,Small business,Americas
+A0052,Small business,EMEA
+A0053,Small business,Americas
+A0054,Mid-market,EMEA
+A0055,Enterprise,Americas
+A0056,Small business,EMEA
+A0057,Mid-market,APAC
+A0058,Small business,APAC
+A0059,Small business,Americas
+A0060,Small business,APAC
+A0061,Small business,Americas
+A0062,Mid-market,Americas
+A0063,Small business,EMEA
+A0064,Small business,APAC
+A0065,Small business,APAC
+A0066,Mid-market,APAC
+A0067,Mid-market,APAC
+A0068,Mid-market,EMEA
+A0069,Mid-market,APAC
+A0070,Enterprise,APAC
+A0071,Small business,EMEA
+A0072,Mid-market,Americas
+A0073,Small business,EMEA
+A0074,Small business,Americas
+A0075,Small business,APAC
+A0076,Small business,Americas
+A0077,Mid-market,EMEA
+A0078,Mid-market,Americas
+A0079,Small business,EMEA
+A0080,Small business,Americas
+A0081,Small business,APAC
+A0082,Mid-market,APAC
+A0083,Small business,EMEA
+A0084,Small business,Americas
+A0085,Enterprise,EMEA
+A0086,Small business,Americas
+A0087,Small business,EMEA
+A0088,Small business,EMEA
+A0089,Small business,APAC
+A0090,Small business,Americas
+A0091,Small business,APAC
+A0092,Mid-market,EMEA
+A0093,Mid-market,EMEA
+A0094,Small business,Americas
+A0095,Small business,EMEA
+A0096,Enterprise,Americas
+A0097,Small business,Americas
+A0098,Mid-market,Americas
+A0099,Small business,EMEA
+A0100,Enterprise,Americas
+A0101,Mid-market,Americas
+A0102,Small business,APAC
+A0103,Small business,EMEA
+A0104,Small business,Americas
+A0105,Mid-market,Americas
+A0106,Small business,Americas
+A0107,Small business,Americas
+A0108,Small business,EMEA
+A0109,Mid-market,EMEA
+A0110,Enterprise,APAC
+A0111,Small business,Americas
+A0112,Small business,EMEA
+A0113,Small business,EMEA
+A0114,Small business,Americas
+A0115,Enterprise,EMEA
+A0116,Small business,APAC
+A0117,Small business,Americas
+A0118,Mid-market,APAC
+A0119,Mid-market,APAC
+A0120,Small business,Americas
+A0121,Enterprise,Americas
+A0122,Small business,Americas
+A0123,Mid-market,Americas
+A0124,Mid-market,Americas
+A0125,Mid-market,APAC
+A0126,Small business,Americas
+A0127,Small business,APAC
+A0128,Enterprise,EMEA
+A0129,Mid-market,Americas
+A0130,Mid-market,EMEA
+A0131,Small business,APAC
+A0132,Small business,Americas
+A0133,Mid-market,EMEA
+A0134,Small business,Americas
+A0135,Enterprise,APAC
+A0136,Small business,EMEA
+A0137,Small business,Americas
+A0138,Small business,APAC
+A0139,Small business,EMEA
+A0140,Small business,Americas
+A0141,Small business,Americas
+A0142,Small business,Americas
+A0143,Enterprise,APAC
+A0144,Enterprise,APAC
+A0145,Small business,APAC
+A0146,Small business,EMEA
+A0147,Mid-market,APAC
+A0148,Small business,APAC
+A0149,Mid-market,Americas
+A0150,Enterprise,APAC
+A0151,Enterprise,Americas
+A0152,Small business,Americas
+A0153,Small business,EMEA
+A0154,Mid-market,Americas
+A0155,Small business,APAC
+A0156,Small business,Americas
+A0157,Small business,Americas
+A0158,Small business,EMEA
+A0159,Small business,Americas
+A0160,Mid-market,Americas
+A0161,Mid-market,Americas
+A0162,Enterprise,EMEA
+A0163,Small business,Americas
+A0164,Small business,Americas
+A0165,Small business,APAC
+A0166,Enterprise,Americas
+A0167,Mid-market,EMEA
+A0168,Mid-market,APAC
+A0169,Mid-market,Americas
+A0170,Mid-market,EMEA
+A0171,Enterprise,EMEA
+A0172,Mid-market,APAC
+A0173,Small business,Americas
+A0174,Small business,Americas
+A0175,Mid-market,Americas
+A0176,Small business,Americas
+A0177,Enterprise,APAC
+A0178,Small business,EMEA
+A0179,Small business,Americas
+A0180,Mid-market,APAC
+A0181,Enterprise,APAC
+A0182,Small business,APAC
+A0183,Small business,APAC
+A0184,Mid-market,EMEA
+A0185,Small business,EMEA
+A0186,Mid-market,APAC
+A0187,Small business,Americas
+A0188,Small business,Americas
+A0189,Small business,APAC
+A0190,Small business,Americas
+A0191,Small business,Americas
+A0192,Mid-market,Americas
+A0193,Small business,Americas
+A0194,Mid-market,APAC
+A0195,Small business,Americas
+A0196,Small business,EMEA
+A0197,Small business,APAC
+A0198,Small business,Americas
+A0199,Mid-market,Americas
+A0200,Small business,Americas
+A0201,Small business,Americas
+A0202,Small business,EMEA
+A0203,Enterprise,APAC
+A0204,Mid-market,EMEA
+A0205,Mid-market,Americas
+A0206,Small business,Americas
+A0207,Enterprise,EMEA
+A0208,Small business,EMEA
+A0209,Small business,Americas
+A0210,Enterprise,EMEA
+A0211,Small business,EMEA
+A0212,Small business,Americas
+A0213,Small business,APAC
+A0214,Small business,EMEA
+A0215,Mid-market,EMEA
+A0216,Small business,EMEA
+A0217,Small business,Americas
+A0218,Enterprise,EMEA
+A0219,Small business,APAC
+A0220,Mid-market,EMEA
+A0221,Small business,Americas
+A0222,Small business,EMEA
+A0223,Mid-market,Americas
+A0224,Small business,Americas
+A0225,Small business,APAC
+A0226,Small business,APAC
+A0227,Small business,EMEA
+A0228,Mid-market,EMEA
+A0229,Small business,Americas
+A0230,Small business,Americas
+A0231,Enterprise,Americas
+A0232,Small business,EMEA
+A0233,Mid-market,EMEA
+A0234,Small business,Americas
+A0235,Mid-market,EMEA
+A0236,Small business,APAC
+A0237,Small business,Americas
+A0238,Enterprise,Americas
+A0239,Mid-market,Americas
+A0240,Small business,APAC
+A0241,Mid-market,EMEA
+A0242,Mid-market,EMEA
+A0243,Enterprise,Americas
+A0244,Mid-market,EMEA
+A0245,Mid-market,EMEA
+A0246,Mid-market,Americas
+A0247,Small business,EMEA
+A0248,Small business,Americas
+A0249,Mid-market,Americas
+A0250,Enterprise,EMEA
+A0251,Mid-market,EMEA
+A0252,Small business,Americas
+A0253,Enterprise,EMEA
+A0254,Mid-market,Americas
+A0255,Small business,EMEA
+A0256,Small business,EMEA
+A0257,Mid-market,APAC
+A0258,Mid-market,Americas
+A0259,Small business,EMEA
+A0260,Small business,Americas
+A0261,Mid-market,APAC
+A0262,Small business,Americas
+A0263,Small business,EMEA
+A0264,Small business,EMEA
+A0265,Small business,EMEA
+A0266,Small business,APAC
+A0267,Mid-market,APAC
+A0268,Small business,EMEA
+A0269,Small business,Americas
+A0270,Mid-market,EMEA
+A0271,Small business,EMEA
+A0272,Small business,Americas
+A0273,Small business,Americas
+A0274,Mid-market,EMEA
+A0275,Enterprise,Americas
+A0276,Mid-market,APAC
+A0277,Small business,EMEA
+A0278,Small business,Americas
+A0279,Enterprise,EMEA
+A0280,Mid-market,EMEA
+A0281,Small business,APAC
+A0282,Mid-market,EMEA
+A0283,Small business,EMEA
+A0284,Small business,APAC
+A0285,Mid-market,Americas
+A0286,Mid-market,Americas
+A0287,Mid-market,EMEA
+A0288,Small business,EMEA
+A0289,Small business,EMEA
+A0290,Small business,Americas
+A0291,Small business,APAC
+A0292,Enterprise,EMEA
+A0293,Mid-market,EMEA
+A0294,Mid-market,EMEA
+A0295,Small business,EMEA
+A0296,Small business,Americas
+A0297,Small business,APAC
+A0298,Small business,EMEA
+A0299,Mid-market,EMEA
+A0300,Small business,APAC
+A0301,Small business,Americas
+A0302,Enterprise,EMEA
+A0303,Mid-market,Americas
+A0304,Mid-market,APAC
+A0305,Mid-market,EMEA
+A0306,Enterprise,EMEA
+A0307,Small business,EMEA
+A0308,Small business,EMEA
+A0309,Enterprise,Americas
+A0310,Small business,EMEA
+A0311,Enterprise,Americas
+A0312,Small business,Americas
+A0313,Mid-market,APAC
+A0314,Small business,Americas
+A0315,Enterprise,Americas
+A0316,Mid-market,EMEA
+A0317,Enterprise,Americas
+A0318,Small business,Americas
+A0319,Enterprise,EMEA
+A0320,Small business,EMEA
+A0321,Enterprise,Americas
+A0322,Small business,EMEA
+A0323,Small business,Americas
+A0324,Small business,APAC
+A0325,Mid-market,EMEA
+A0326,Small business,Americas
+A0327,Enterprise,Americas
+A0328,Enterprise,EMEA
+A0329,Small business,EMEA
+A0330,Small business,EMEA
+A0331,Small business,EMEA
+A0332,Mid-market,Americas
+A0333,Small business,Americas
+A0334,Mid-market,EMEA
+A0335,Small business,APAC
+A0336,Mid-market,Americas
+A0337,Small business,Americas
+A0338,Small business,Americas
+A0339,Small business,Americas
+A0340,Small business,Americas
+A0341,Mid-market,Americas
+A0342,Mid-market,EMEA
+A0343,Small business,Americas
+A0344,Small business,EMEA
+A0345,Enterprise,EMEA
+A0346,Small business,APAC
+A0347,Mid-market,APAC
+A0348,Small business,Americas
+A0349,Mid-market,EMEA
+A0350,Small business,EMEA
+A0351,Small business,EMEA
+A0352,Mid-market,APAC
+A0353,Mid-market,APAC
+A0354,Mid-market,EMEA
+A0355,Small business,Americas
+A0356,Small business,Americas
+A0357,Small business,Americas
+A0358,Small business,Americas
+A0359,Enterprise,APAC
+A0360,Mid-market,EMEA

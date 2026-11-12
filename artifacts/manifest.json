@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "seed": 4726,
+  "reporting_period": [
+    "2026-07-01",
+    "2026-09-30"
+  ],
+  "accounts": 360,
+  "members": 5420,
+  "raw_rows": 3933,
+  "canonical_rows": 3510,
+  "duplicate_rows": 423,
+  "sha256": {
+    "audit_predictions.csv": "6e7634ba8467b92eaf82e5c11271124101e5c9199a252e924b76ab9d119f4a3f",
+    "baseline_audit_predictions.csv": "c3af9726bce288c64101d12c1984a50032ae22a1d2a24d541f65a2f6b538201d",
+    "challenge_predictions.csv": "33ea421725a2ce88d2c650cb0954f4a0f9937f4e6f0440cab94af37d84d314a8",
+    "duplicate_audit.csv": "7b48cdb94d31a212b117b6b48f8f66db8c0e7532bf820bfb639cee6e2bf3bc50",
+    "evaluation.json": "6c3b1806b3e7fc074843bf436868bab7c55f88a3311cbeb4e0329dc694f4010d",
+    "history.csv": "581900cbe32f349b4b2812fce299353708eb10517013760964193345640c0f37",
+    "overview.csv": "9fc7608203ca5ce8efa7eb2d8194d880723f750c776d6c54c187adeeb418bdd3",
+    "raw/accounts.csv": "2ef1615660862092116b089509b92f0cab5095379b83e9da60d437d6ac287331",
+    "raw/feedback.csv": "6705985e62faefa35fe496737b3098fb494c41f8a57d7adf67d82ace33df7349",
+    "raw/members.csv": "49bb9a319f9cbea5fc5f1541da7676acb24706234e4f7eb6086d116069693d54",
+    "raw/simulation_truth.csv": "adf47130b9421e46df703dad49c941760a6856856f650d9e5e07a5237fed2838",
+    "reach.csv": "199ebc4c4cc939b31a356b1b6cfa210dc5c19aab96e93f6366413dbc8515af48",
+    "roadmap.csv": "0808f02e0797b7fc2b4c082828633f50a127ce66e6bb6104f332c988ed085311",
+    "segments.csv": "c26e91aa57a9a6426b20203291a536e10e7a5dc6e4f8805e02921d3cd9e3bcdd",
+    "sensitivity.csv": "52848ea5adbf12220931143d407c2324e30a08a894ddd20216a69aab351a0878",
+    "simulation_errors.csv": "7ec8f0017d45be512fcb12c74e24e6ed1c589fcd051ba5b46d71a5cdbe92ee01",
+    "theme.csv": "f20ec9de2af5be87f06d4d69e2c1ca5c022c83d6806da8b0b93f536c80938258",
+    "trend.csv": "35454ad95b78f74fca893ae1cb88fb08e82f41424eba968c63ddca880418cb2c",
+    "voc.sqlite": "d8701779329a2bf230242c415d02ba786c898c1002aadd02651223967b6e0eb8"
+  },
+  "source_sha256": {
+    "audit.csv": "2bc523b7e04d53c227a0d60348d1162b84d860ff0739e4d7b03b37fecf8f87c8",
+    "candidates.json": "09b5f19284b62a52e1bed9a01ccb83a22971188019c493e6baa75888ef8dbe43",
+    "challenge.csv": "52f443a9a740ad8211147415c43017dbd7279f29da1805640a1bc466da1f5103",
+    "feedback_library.json": "15ac948ae44dc4f35cb83341081997d4c774b53a903b9c7b476e1e7e81b28342"
+  }
+}

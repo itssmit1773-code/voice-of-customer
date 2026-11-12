@@ -1,0 +1,18 @@
+changed_input,level,winner,winner_score,runner_up,runner_up_score
+eligible,low,Recover stalled approvals,99.06285714285715,Bundle comment notifications,24.090000000000003
+eligible,high,Recover stalled approvals,171.10857142857142,Bundle comment notifications,41.61
+impact,low,Recover stalled approvals,72.0457142857143,Bundle comment notifications,17.520000000000003
+impact,high,Recover stalled approvals,216.1371428571429,Bundle comment notifications,70.08000000000001
+confidence,low,Recover stalled approvals,99.06285714285717,Bundle comment notifications,25.696000000000005
+confidence,high,Recover stalled approvals,162.10285714285718,Bundle comment notifications,39.712
+effort,low,Recover stalled approvals,201.72800000000004,Bundle comment notifications,58.400000000000006
+effort,high,Recover stalled approvals,84.05333333333336,Bundle comment notifications,21.900000000000002
+top two joint stress,low / low,Recover stalled approvals,19.86416666666667,Bundle comment notifications,5.520625000000002
+top two joint stress,low / base,Bundle comment notifications,35.040000000000006,Recover stalled approvals,19.86416666666667
+top two joint stress,low / high,Bundle comment notifications,157.1933333333333,Recover stalled approvals,19.86416666666667
+top two joint stress,base / low,Recover stalled approvals,144.0914285714286,Bundle comment notifications,5.520625000000002
+top two joint stress,base / base,Recover stalled approvals,144.0914285714286,Bundle comment notifications,35.040000000000006
+top two joint stress,base / high,Bundle comment notifications,157.1933333333333,Recover stalled approvals,144.0914285714286
+top two joint stress,high / low,Recover stalled approvals,404.24399999999997,Bundle comment notifications,5.520625000000002
+top two joint stress,high / base,Recover stalled approvals,404.24399999999997,Bundle comment notifications,35.040000000000006
+top two joint stress,high / high,Recover stalled approvals,404.24399999999997,Bundle comment notifications,157.1933333333333

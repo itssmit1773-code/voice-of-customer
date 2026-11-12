@@ -1,0 +1,43 @@
+id,channel,text,expected_topic,expected_sentiment,expected_severity,predicted_topic,predicted_sentiment,predicted_severity,review_reason
+H01,Challenge,Our designated approver left on Monday. The request is stranded in her queue and nobody can sign it off. This is wrecking the launch.,approval,negative,blocking,approval,negative,blocking,Possible blocker
+H02,Challenge,Can an admin reassign a pending approval? We are copying the request to a new workflow by hand for now.,approval,neutral,moderate,approval,neutral,moderate,
+H03,Challenge,Love the board. Could we pick a backup reviewer when setting up approval? This can wait.,approval,positive,low,approval,positive,low,
+H04,Challenge,"I am fed up with chasing a reviewer who is on leave. A second approval can be filed manually, but it eats up the afternoon.",approval,negative,moderate,approval,negative,moderate,
+H05,Challenge,The sign-off step has no one assigned after the reviewer account was closed. We cannot release the order until this clears.,approval,neutral,blocking,approval,review,blocking,Uncertain sentiment · Possible blocker
+H06,Challenge,Would it be possible to delegate approval to a different teammate before a reviewer goes on leave? Just an idea for next quarter.,approval,neutral,low,approval,neutral,low,
+H07,Challenge,It is annoying to get a push alert and a matching email for every reply. We can ignore the extra messages for now.,notifications,negative,low,notifications,negative,low,
+H08,Challenge,Could you add a digest? We currently spend Friday afternoon clearing identical comment alerts.,notifications,neutral,moderate,notifications,neutral,moderate,
+H09,Challenge,The app has been great for our crew. One optional improvement would be fewer notification emails.,notifications,positive,low,notifications,positive,low,
+H10,Challenge,I turned off the comment alerts and still receive them. This is frustrating. We are manually setting email rules each week.,notifications,negative,moderate,notifications,negative,moderate,
+H11,Challenge,Is there a way to combine inbox alerts into one daily note? A nice-to-have for the next planning cycle.,notifications,neutral,low,notifications,neutral,low,
+H12,Challenge,We hate that mandatory job alerts drown in duplicate notifications. We cannot run the overnight job safely and have no workaround.,notifications,negative,blocking,notifications,negative,blocking,Possible blocker
+H13,Challenge,"A 40,000-row CSV download dies at 99 percent. We cannot provide the compliance file today. This is incredibly frustrating.",export,negative,blocking,export,negative,blocking,Possible blocker
+H14,Challenge,The downloaded report misses a custom column. We can copy the value manually from the board.,export,neutral,moderate,export,review,moderate,Uncertain sentiment
+H15,Challenge,Really happy with the reporting screens. It would be nice if the exported spreadsheet kept the date formatting.,export,positive,low,export,positive,low,
+H16,Challenge,It is painful to repair the exported CSV every week. The download includes rows we filtered out. We can clean them manually.,export,negative,moderate,export,negative,moderate,
+H17,Challenge,The CSV export produces a blank file. Finance cannot submit the report and has no other way to generate it.,export,neutral,blocking,export,review,blocking,Uncertain sentiment · Possible blocker
+H18,Challenge,Can downloaded reports remember the selected sort order? Optional for our use case.,export,neutral,low,export,review,low,Uncertain sentiment
+H19,Challenge,An external guest can open a private board. We are unhappy about this and cannot reopen the workspace until access is contained.,permissions,negative,blocking,permissions,negative,blocking,Possible blocker · Possible access exposure
+H20,Challenge,The guest invite rejects our contractor. An employee currently sends each attachment by hand.,permissions,neutral,moderate,permissions,review,moderate,Uncertain sentiment
+H21,Challenge,We like the collaboration features. A folder-level guest role would be useful someday.,permissions,positive,low,permissions,positive,review,Uncertain severity
+H22,Challenge,Our guest sees a permission denied screen for the shared card. Pretty fed up with uploading the same file separately.,permissions,negative,moderate,permissions,negative,review,Uncertain severity
+H23,Challenge,The outside reviewer cannot open anything through the guest link. Approval of the order cannot proceed and there is no workaround.,permissions,neutral,blocking,permissions,review,blocking,Uncertain sentiment · Possible blocker
+H24,Challenge,Could we preview which shared folders an external invite will let the guest open? No rush.,permissions,neutral,low,permissions,neutral,low,
+H25,Challenge,It is annoying that exact task names vanish from search. We can hunt through the projects manually.,search,negative,moderate,search,negative,moderate,
+H26,Challenge,Can workspace search include filenames? We have no urgent need.,search,neutral,low,search,review,low,Uncertain sentiment
+H27,Challenge,We are happy with the board. It would be helpful if archived tasks ranked below current work in search.,search,positive,low,search,positive,low,
+H28,Challenge,Nothing comes back for the known incident number. This is awful. The response team cannot proceed without the task and has no alternative.,search,negative,blocking,search,negative,blocking,Possible blocker
+H29,Challenge,The search results still show yesterday's names. We verify the names in each project separately for now.,search,neutral,moderate,search,review,review,Uncertain sentiment · Uncertain severity
+H30,Challenge,Could we keep the selected filters when returning to search results? Just a suggestion.,search,neutral,low,search,neutral,low,
+H31,Challenge,The calendar connector is no longer picking up due dates. I am frustrated. We cannot dispatch the on-call schedule today.,sync,negative,blocking,sync,negative,blocking,Possible blocker
+H32,Challenge,Two copies of each task arrive from the webhook. We remove the duplicates manually every morning.,sync,neutral,moderate,sync,review,moderate,Uncertain sentiment
+H33,Challenge,The integration has generally been excellent. An advance warning for token expiry would be nice.,sync,positive,low,sync,positive,low,
+H34,Challenge,I am tired of typing task status twice when Slack sync falls behind. We can keep updating both sides manually.,sync,negative,moderate,sync,negative,moderate,
+H35,Challenge,The external API connector stopped after a credentials change. No alternative works for tonight's handoff.,sync,neutral,blocking,sync,review,blocking,Uncertain sentiment · Possible blocker
+H36,Challenge,It would be nice to see when the calendar last synced. We can keep working as normal.,sync,neutral,low,sync,review,low,Uncertain sentiment
+H37,Challenge,The compact layout is great. Thank you for adding it.,other,positive,low,other,positive,review,Uncertain severity
+H38,Challenge,Can you add our tax ID to the receipt? No deadline pressure.,other,neutral,low,other,neutral,low,
+H39,Challenge,"I am disappointed that the interface ignores larger font settings. I can zoom each page, but it takes time.",other,negative,moderate,other,negative,review,Uncertain severity
+H40,Challenge,We would like a keyboard shortcut for moving cards. A small request.,other,neutral,low,other,review,low,Uncertain sentiment
+H41,Challenge,This is awful. Our boards load entirely blank and nobody can do today's work. We have no workaround.,other,negative,blocking,review,negative,blocking,Uncertain topic · Possible blocker
+H42,Challenge,The new dark appearance looks great and we can keep working as usual.,other,positive,low,other,positive,low,

@@ -1,0 +1,247 @@
+{
+  "topics": {
+    "approval": {
+      "label": "Approval handoffs",
+      "train": [
+        "Approval request is stuck with a deactivated approver",
+        "Reassign the approval when the reviewer is away",
+        "Workflow approval has no backup approver",
+        "Approver left the workspace and the approval is pending",
+        "Cannot delegate approvals to another reviewer",
+        "Approval queue stalls when the owner is unavailable",
+        "Approval routing needs a fallback reviewer",
+        "The approver cannot be replaced after submission"
+      ],
+      "live": [
+        "Pending approval still points at the former owner",
+        "The reviewer is on leave and there is no delegate for approval",
+        "Please route this approval to our backup reviewer",
+        "Our approval is sitting in a departed colleague's queue",
+        "We cannot transfer ownership of an in-flight approval",
+        "Approval handoffs stop when a reviewer loses access"
+      ]
+    },
+    "notifications": {
+      "label": "Notification overload",
+      "train": [
+        "Too many notification emails arrive for one comment",
+        "Mute notifications for a task I only follow",
+        "Duplicate alerts fill my inbox",
+        "A notification digest would replace all these emails",
+        "Notification preferences ignore muted workspaces",
+        "Push alerts duplicate the email notifications",
+        "Please batch notification reminders together",
+        "Inbox is flooded with comment notifications"
+      ],
+      "live": [
+        "Three alerts arrive each time someone replies",
+        "A single notification digest would help",
+        "I muted the task and the notifications keep arriving",
+        "Every comment is generating duplicate emails",
+        "We want fewer push notifications overnight",
+        "The alert preferences do not stick"
+      ]
+    },
+    "export": {
+      "label": "Export reliability",
+      "train": [
+        "CSV export drops columns from the report",
+        "Downloaded export is missing rows",
+        "Report export times out with a large workspace",
+        "Exported spreadsheet has wrong dates",
+        "CSV download freezes halfway through",
+        "Saved filters disappear in the export",
+        "Export report returns a blank file",
+        "Spreadsheet export corrupts accented characters"
+      ],
+      "live": [
+        "The CSV download finishes but the report is empty",
+        "Export strips the custom fields from our report",
+        "The spreadsheet download times out at the end",
+        "CSV export has fewer records than the dashboard",
+        "Our exported report shows dates in the wrong format",
+        "Export kept the file name but lost the applied filters"
+      ]
+    },
+    "permissions": {
+      "label": "Guest permissions",
+      "train": [
+        "Guest permissions expose a private project",
+        "External guest cannot open the shared task",
+        "Invite links give guests the wrong access level",
+        "Need guest access scoped to one folder",
+        "Guest role cannot view a shared attachment",
+        "Read-only guest can edit a task",
+        "External collaborator gets permission denied",
+        "Guest sharing requires clearer access controls"
+      ],
+      "live": [
+        "An outside collaborator cannot access the folder we shared",
+        "The guest can edit the card with read-only access",
+        "Permission denied for the invited external reviewer",
+        "Guest role is showing a private board",
+        "We need a folder-level guest role",
+        "The guest invite opens the wrong project"
+      ]
+    },
+    "search": {
+      "label": "Search relevance",
+      "train": [
+        "Search cannot find exact task titles",
+        "Global search results are out of date",
+        "Search ranks old archived cards above current work",
+        "Search filter misses exact matches",
+        "Workspace search returns irrelevant results",
+        "Search ignores ticket numbers",
+        "I need search to include attachment names",
+        "Results page loses my search filters"
+      ],
+      "live": [
+        "Global search skips a task with the exact title",
+        "Old archived results dominate workspace search",
+        "Search returns nothing for a known task number",
+        "We need to search by attachment filename",
+        "Search results still show last week's task names",
+        "Exact matches are buried in search"
+      ]
+    },
+    "sync": {
+      "label": "Integration sync",
+      "train": [
+        "Calendar integration stopped syncing task dates",
+        "Webhook retries create duplicate tasks",
+        "Slack integration misses status updates",
+        "API sync delays external changes",
+        "Integration token expires without a warning",
+        "Calendar sync shows old due dates",
+        "The connector sync repeatedly duplicates entries",
+        "Webhook delivery is failing for updates"
+      ],
+      "live": [
+        "The calendar connector no longer picks up due dates",
+        "Our Slack integration missed several changes",
+        "The same webhook update was delivered twice",
+        "Sync with the calendar is stuck on yesterday",
+        "API integration stopped after the token expired",
+        "External status updates only appear after a delayed sync"
+      ]
+    },
+    "other": {
+      "label": "Other",
+      "train": [
+        "Please add larger text to the board",
+        "We would like a darker interface",
+        "Board colors are helpful for planning",
+        "Can we rename the workspace icon",
+        "Keyboard shortcuts would save time",
+        "Love the compact list layout",
+        "Please translate the menus",
+        "Billing receipt needs our tax number"
+      ],
+      "live": [
+        "Can the board have a dark appearance",
+        "The invoice needs a tax identifier",
+        "Could the toolbar use a bigger font",
+        "I like the new task layout",
+        "Add a keyboard shortcut for the sidebar",
+        "A translated menu would be welcome"
+      ]
+    }
+  },
+  "modifiers": {
+    "sentiment": {
+      "negative": [
+        "This is frustrating.",
+        "We are disappointed with this.",
+        "This has been an awful experience.",
+        "I am unhappy with the way this works.",
+        "This is painful to deal with.",
+        "It is really annoying."
+      ],
+      "neutral": [
+        "Sharing this for reference.",
+        "Please confirm the expected behavior.",
+        "Logging this for the team.",
+        "Here is what we observed.",
+        "Could you clarify the current options?",
+        "We are recording this for planning."
+      ],
+      "positive": [
+        "The rest of the experience is excellent.",
+        "Overall we are happy with the product.",
+        "We appreciate how well the rest works.",
+        "The team loves using this product overall.",
+        "We are pleased with the rest of the workflow.",
+        "The overall experience has been great."
+      ]
+    },
+    "severity": {
+      "low": [
+        "It is a small inconvenience.",
+        "This is optional for us.",
+        "It would be nice to have.",
+        "There is no deadline pressure.",
+        "A minor issue on our side.",
+        "We can keep working as usual."
+      ],
+      "moderate": [
+        "We have a workaround but it takes manual work.",
+        "We can finish by doing it manually.",
+        "The team spends extra time each week.",
+        "There is a workaround but it is slow.",
+        "We can continue with extra steps.",
+        "A manual workaround is available."
+      ],
+      "blocking": [
+        "We cannot finish the workflow and there is no workaround.",
+        "Our team is blocked on a deadline.",
+        "No workaround exists for this release.",
+        "This stops production work for the whole team.",
+        "We cannot complete the job today.",
+        "The release cannot proceed."
+      ]
+    }
+  },
+  "variants": {
+    "sentiment": {
+      "negative": [
+        "It has been a miserable week dealing with this.",
+        "Pretty fed up with it.",
+        "We dread having to do this again.",
+        "This experience really let us down."
+      ],
+      "neutral": [
+        "Flagging for the next product review.",
+        "Adding the steps here for context.",
+        "Please check what should happen here.",
+        "We saw this on our latest workspace."
+      ],
+      "positive": [
+        "Everything else has worked brilliantly for us.",
+        "We're quite fond of the tool as a whole.",
+        "The rest of the tool has been a pleasure.",
+        "Still very pleased with the product overall."
+      ]
+    },
+    "severity": {
+      "low": [
+        "We can work as normal.",
+        "A preference, no rush.",
+        "This can wait until a later cycle.",
+        "Nobody is held up by this."
+      ],
+      "moderate": [
+        "We can finish by taking a manual detour.",
+        "We still get there, with extra time.",
+        "The manual route works for now.",
+        "We keep going by repeating some steps."
+      ],
+      "blocking": [
+        "The team is blocked with no workaround.",
+        "We cannot move the job forward at all.",
+        "Everyone is waiting, and no alternative works.",
+        "We are unable to finish the release."
+      ]
+    }
+  }
+}

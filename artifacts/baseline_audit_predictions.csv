@@ -1,0 +1,25 @@
+id,channel,text,expected_topic,expected_sentiment,expected_severity,predicted_topic,predicted_sentiment,predicted_severity,review_reason
+A01,Challenge,"The person assigned to authorize our purchase was suspended. We are furious. The request cannot move forward, and nobody else can authorize it.",approval,negative,blocking,review,positive,blocking,Uncertain topic · Possible blocker
+A02,Challenge,"On approval requests, can the administrator take over an open sign-off? For now an operator has to file a second request manually.",approval,neutral,moderate,approval,review,review,Uncertain sentiment · Uncertain severity
+A03,Challenge,"Really like approvals. It would be helpful if a holiday calendar suggested a delegate, but we can work as usual.",approval,positive,low,other,negative,low,
+A04,Challenge,The bell keeps sending us reminders we already read. It is getting irritating. We are sorting the mailbox by hand.,notifications,negative,moderate,other,positive,moderate,
+A05,Challenge,Could we silence email alerts while keeping the in-app badge? Just an idea for next month.,notifications,neutral,low,review,neutral,blocking,Uncertain topic · Possible blocker
+A06,Challenge,The digest works well for us. We would like to choose when it arrives. No rush.,notifications,positive,low,other,review,low,Uncertain sentiment
+A07,Challenge,"Export stops after the progress bar reaches the end. This is dismal. The tax filing cannot proceed without that CSV, and there is no alternative.",export,negative,blocking,approval,review,blocking,Uncertain sentiment · Possible blocker
+A08,Challenge,The report download uses a different time zone. We convert it manually each Friday.,export,neutral,moderate,review,review,moderate,Uncertain topic · Uncertain sentiment
+A09,Challenge,Thank you for adding CSV. It would be helpful to include a second date column. A preference only.,export,positive,low,review,review,low,Uncertain topic · Uncertain sentiment
+A10,Challenge,Someone we invited as an external guest opened a restricted board. We're furious. Our team cannot reopen access until this is fixed.,permissions,negative,blocking,permissions,negative,blocking,Possible blocker · Possible access exposure
+A11,Challenge,Could you check the contractor's guest role? We are sending permitted files manually in the meantime.,permissions,neutral,moderate,review,review,blocking,Uncertain topic · Uncertain sentiment · Possible blocker
+A12,Challenge,We like having guests on a project. Previewing access before sending an invite would be nice to have.,permissions,positive,low,permissions,negative,low,
+A13,Challenge,Exact matches are buried. It is exhausting to open old projects by hand each time we need a task.,search,negative,moderate,review,negative,moderate,Uncertain topic
+A14,Challenge,Could you let the search box match quoted phrases? No urgent need.,search,neutral,low,review,neutral,blocking,Uncertain topic · Possible blocker
+A15,Challenge,Search is excellent for current work. Pinning recent queries would be nice.,search,positive,low,search,neutral,low,
+A16,Challenge,The calendar integration has stopped. We're fed up. The schedule cannot be published and there is no workaround.,sync,negative,blocking,approval,positive,blocking,Possible blocker
+A17,Challenge,The connector delivers each status update twice. We can keep going by deleting copies manually.,sync,neutral,moderate,review,positive,moderate,Uncertain topic
+A18,Challenge,Really like the Slack integration. Can we choose a second channel? This is optional for us.,sync,positive,low,review,review,low,Uncertain topic · Uncertain sentiment
+A19,Challenge,We're annoyed the board layout ignores our text size. Browser zoom works with extra steps.,other,negative,moderate,other,positive,moderate,
+A20,Challenge,Could we move the sidebar with a keyboard shortcut? This can wait.,other,neutral,low,review,review,review,Uncertain topic · Uncertain sentiment · Uncertain severity
+A21,Challenge,The timeline looks great. One optional improvement would be more contrast.,other,positive,low,review,positive,low,Uncertain topic
+A22,Challenge,Search and CSV export are both inconsistent. One is frustrating and the other works well enough. We can reconcile the results manually.,review,review,moderate,review,positive,review,Uncertain topic · Uncertain severity
+A23,Challenge,It did the same thing again.,review,review,review,review,review,review,Uncertain topic · Uncertain sentiment · Uncertain severity
+A24,Challenge,A guest link is frustrating to configure. We are not blocked. We can share the file by hand.,permissions,negative,moderate,other,review,moderate,Uncertain sentiment
