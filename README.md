@@ -1,5 +1,7 @@
 # AI-Powered Voice of Customer & Product Prioritization
 
+[Open interactive dashboard](https://8tludvqky9kh7nc4t3jxtb.streamlit.app/) · [Read the portfolio case study](https://itssmit1773-code.github.io/portfolio/voice-of-customer.html)
+
 **Decision:** prototype a way to recover stalled approvals in Relayboard, a fictional global workflow SaaS product. In the July–September 2026 simulation, approval handoffs accounted for **469 of 1,854** deduplicated reports (**25.3%**) and came from **394 identified reporters across 235 accounts**. The proposal led the base RICE ranking at **144.1**. Under adverse assumptions, a notification digest can overtake it.
 
 [Case study](docs/case-study.md) · [Approval recovery PRD](docs/prd-approval-recovery.md) · [Data dictionary](docs/data-dictionary.md) · [Model evaluation](docs/model-evaluation.md) · [Decision method](docs/prioritization.md)
